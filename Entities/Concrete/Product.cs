@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,6 +13,6 @@ namespace Entities.Concrete
         public short UnitsInStock { get; set; }
         public decimal UnitPrice { get; set; }
 
-       
+
     }
 }
